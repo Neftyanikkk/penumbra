@@ -9,7 +9,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 source ~/.cargo/env 
 
-# build
+# building
+
 rm -rf penumbra
 git clone https://github.com/penumbra-zone/penumbra
 cd penumbra
